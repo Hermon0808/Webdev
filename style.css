@@ -1,0 +1,113 @@
+/* Remove default margin and padding for both body and html */
+html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.hero {
+    background: linear-gradient(to right, #ff6a88, #845ec2);
+    height: 100vh;
+    margin-top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-family: 'Pacifico', cursive;
+    color: #000;
+    font-weight: 300;
+    font-size: 5rem;
+    margin: 0; 
+}
+.mypic{
+    height: 200px;
+    border-radius: 50%;
+}
+
+.svg {
+    position: absolute;
+    width: 100px; 
+    opacity: 0.3;  
+}
+
+.svg-1 {
+    top: 10%;
+    left: 5%;
+    transform: rotate(30deg); 
+}
+
+.svg-2 {
+    top: 50%;
+    left: 20%;
+    transform: rotate(-45deg); 
+}
+
+.svg-3 {
+    top: 80%;
+    right: 15%;
+    transform: rotate(60deg); 
+}
+.svg-4 {
+    top: 1%;
+    right: 15%;
+    transform: rotate(60deg); 
+}
+.space-bod{
+    display: flex;
+    justify-content: center;
+    font-weight:lighter;
+    font-size: xx-large;
+}
+.personal{
+    background-color: white;
+}
+
+.skills-section {
+    width: 50%; 
+    margin: 20px auto; 
+    padding: 20px;
+    overflow: hidden;
+    background-color: #f9f9f9; 
+    border-radius: 10px;
+}
+
+.skills-section img {
+    float: left;
+    width: 200px; 
+    height: 200px; 
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+
+.skills-section h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+.skills-section p {
+    font-size: 18px;
+    color: #666;
+    line-height: 1.6;
+    text-align: justify;
+}
+.skills-section::after {
+    display: table;
+    clear: both;
+}
+button{
+    background-color: #663399;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    padding: 10px;
+}
+button:hover{
+    background-color:#442266;
+    transition: 0.5s;
+}
+.footer{
+        background: linear-gradient(to right, #ff6a88, #845ec2);
+}
